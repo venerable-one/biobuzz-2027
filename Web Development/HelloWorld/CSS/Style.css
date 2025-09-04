@@ -1,0 +1,55 @@
+p {
+    color: red;
+    font-size: 30px;
+}
+body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f9f9f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-bottom: 20px;
+            background: #fff;
+        }
+        th, td {
+            border: 1px solid #bbb;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #e0e0e0;
+        }
+        form {
+            margin-bottom: 30px;
+        }
+        .form-section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 60%;
+            box-shadow: 0 2px 8px #eee;
+            margin-bottom: 20px;
+        }
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+        }
+        .download-section, .contact-section, .audio-section {
+            margin-top: 20px;
+            width: 60%;
+        }
+        input[type="text"], input[type="email"], textarea, input[type="date"] {
+            width: 95%;
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            resize: vertical;
+        }

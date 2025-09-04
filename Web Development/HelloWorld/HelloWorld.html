@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <img src="Images/Cherno.jpg" alt="Cherno Pic" width="150" height="200" style="display:block; margin-bottom:20px;"/>
+    <h1>Hello, World!</h1>
+    <div style="width:60%;">
+        <p>
+            <!-- This is a comment in HTML -->
+            Yoooooooooo&nbsp;&nbsp;&nbsp;&nbsp;World!<br>
+            This is my first HTML page.<br>
+            I am learning how to create web pages using HTML.<br>
+            <b>HTML is a markup language.</b><br>
+            It is used to structure content on the web.<br>
+            <i>Web development is fun!</i>
+        </p>
+        <h2>What languages do you know?</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>HyperText Markup Language</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Cascading Style Sheets</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Programming language for the web</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>User Information Form</h2>
+        <form class="form-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Form Field</th>
+                        <th>Input</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email" placeholder="Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td><textarea name="message" placeholder="Enter your message"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="margin-bottom:10px;">
+                <b>What subjects do you like?</b><br>
+                <input type="checkbox" name="subjects" value="Math"> Math
+                <input type="checkbox" name="subjects" value="Science"> Science
+                <input type="checkbox" name="subjects" value="History"> History
+            </div>
+            <div style="margin-bottom:10px;">
+                <b>Are you enjoying learning HTML?</b><br>
+                <input type="radio" name="enjoyment" value="yes"> Yes
+                <input type="radio" name="enjoyment" value="no"> No
+            </div>
+            <div style="margin-bottom:10px;">
+                <b>What date is today?</b><br>
+                <input type="date" name="today" value="">
+            </div>
+            <div class="form-actions">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+        <div class="download-section">
+            <b>Download Cherno Image:</b><br>
+            <a href="Images/Cherno.jpg" target="_blank" download>
+                <input type="button" value="Download Cherno Image">
+            </a>
+            <br><br>
+            <b>Preview Cherno Image:</b><br>
+            <a href="Images/Cherno.jpg" target="_blank">
+                <input type="button" value="Preview Cherno Image">
+            </a>
+        </div>
+        <div class="contact-section">
+            <br>
+            <a href="mailto:jjj@example.com">Email me</a>
+        </div>
+        <div class="download-section">
+            <br>
+            Here! Get a “30 Days to a New You_ The Realistic Guide to Lasting Weight Loss” download link:
+            <br>
+            <a href="Documents/30 Days to a New You_ The Realistic Guide to Lasting Weight Loss.docx" download>
+                30 Days to a New You_ The Realistic Guide to Lasting Weight Loss
+            </a>
+        </div>
+        <div class="audio-section">
+            <br>
+            <audio controls>
+                <source src="Audios/LoVibe.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+</body>
+</html>

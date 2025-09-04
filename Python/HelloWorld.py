@@ -1,0 +1,6 @@
+print ("Hello World!")
+name = input ("What is your name? ")
+print ("Hello" + name + "!")
+print ("")
+nobility_type = input ("What is your Nobility type? (e.g. Duke, Count, Baron, etc.) ") 
+print ("Ah, your majesty, the" + nobility_type + " " + name + "!")
